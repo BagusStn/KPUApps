@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="131dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="logo"
+        android:src="@drawable/logokpu" />
+
+    <Button
+        android:id="@+id/buttonInformasi"
+        style="@style/AppButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:drawablePadding="1dp"
+        android:padding="1dp"
+        android:text="Informasi Pemilihan Umum" />
+
+    <Button
+        android:id="@+id/buttonFormEntry"
+        style="@style/AppButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:drawablePadding="1dp"
+        android:padding="1dp"
+        android:text="Form Entri Calon Pemilih" />
+
+    <Button
+        android:id="@+id/buttonLihatData"
+        style="@style/AppButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:drawablePadding="1dp"
+        android:padding="1dp"
+        android:text="Informasi Data Pemilih" />
+
+    <Button
+        android:id="@+id/buttonKeluar"
+        style="@style/AppButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:drawablePadding="1dp"
+        android:padding="1dp"
+        android:text="Keluar" />
+
+</LinearLayout>
